@@ -1,0 +1,46 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  grid-template-rows: repeat(4, 250px);
+  grid-template-areas:
+    "um dois dois tres"
+    "um quatro cinco seis"
+    "um sete oito seis";
+  gap: 10px;
+  text-align: center;
+}
+div {
+  align-content: center;
+}
+.um {
+  grid-area: um;
+  background-color: aqua;
+}
+.dois {
+  grid-area: dois;
+  background-color: beige;
+}
+.tres {
+  grid-area: tres;
+  background-color: blue;
+}
+.quatro {
+  grid-area: quatro;
+  background-color: chartreuse;
+}
+.cinco {
+  grid-area: cinco;
+  background-color: darkmagenta;
+}
+.seis {
+  grid-area: seis;
+  background-color: gold;
+}
+.sete {
+  grid-area: sete;
+  background-color: crimson;
+}
+.oito {
+  grid-area: oito;
+  background-color: fuchsia;
+}
